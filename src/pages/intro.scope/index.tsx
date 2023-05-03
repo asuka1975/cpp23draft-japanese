@@ -2,7 +2,7 @@ import Field from "@/components/Field";
 
 export default function Scope() {
   return (
-    <div>
+    <Field>
         <h1>1   Scope</h1>
         <p>
             この文書はC++の実装要件を特定します。
@@ -11,6 +11,6 @@ export default function Scope() {
             C++はISO/IESによるC言語を基礎とした汎用目的のプログラミング言語です。
             C++はC言語で提供されている機能のもと、追加のデータ型、クラス、テンプレート、例外、名前空間、オペレータオーバーロード、関数オーバーロード、参照、メモリ管理オペレータ、追加のライブラリ等を含む様々機能を提供しています。
         </p>
-    </div>
+    </Field>
   )
 }
