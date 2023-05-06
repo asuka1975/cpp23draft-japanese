@@ -6,7 +6,7 @@ export default function Refs() {
         <h1>2   Normative references</h1>
         <p>
             下記の文献はこの文書の内容を作成する上で一部または全てを参照した文書です. 
-            時間がたった参考文献はその引用された版を採用します. 更新された参考文献に関しては、最新版を採用します. 
+            時間がたった参考文献はその引用された版を採用します. 更新された参考文献に関しては, 最新版を採用します. 
         </p>
         <ul>
             <li>ISO/IEC 2382, Information technology</li>

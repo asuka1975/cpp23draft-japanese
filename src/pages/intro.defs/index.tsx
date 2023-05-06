@@ -6,6 +6,7 @@ import DefnsProjection from "./defns.projection";
 import DefnsArgument from "./defns.argument";
 import DefnsArgumentMacro from "./defns.argument.macro";
 import DefnsArgumentThrow from "./defns.argument.throw";
+import DefnsArgumentTempl from "./defns.argument.templ";
 
 
 export default function IntroDefs() {
@@ -28,6 +29,7 @@ export default function IntroDefs() {
             <DefnsArgument inner />
             <DefnsArgumentMacro inner />
             <DefnsArgumentThrow inner />
+            <DefnsArgumentTempl inner />
 
             <DefnsProjection inner />
         </Field>
