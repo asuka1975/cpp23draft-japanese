@@ -8,7 +8,7 @@ type Props = {
 
 const content: ReactNode = <>
     <p>{"<library>"}ストリーム長内の任意の整数位置を走査可能なストリーム</p>
-    <p>[Note 1: すべてのarbitrary-positional streamはrepositionalなストリームでもあります。(<a href="/intro.defs#defns.repositional.stream">[defns.repositional.stream]</a>)]</p>
+    <p>[Note 1: すべてのarbitrary-positional streamはrepositionalなストリームでもあります. (<a href="/intro.defs#defns.repositional.stream">[defns.repositional.stream]</a>)]</p>
 </>
 
 const DefnsArbitraryStream: React.FC<Props> = ({ inner = false }) => {
