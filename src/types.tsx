@@ -6,7 +6,7 @@ export type IndexItem = {
     link: string;
 };
 
-export type IndexTree = Array<IndexItem | Array<IndexTree>>;
+export type IndexTree = Array<IndexItem | IndexTree>;
 
 export type HeadingLevel = 1 | 2 | 3 | 4 | 5 | 6;
 

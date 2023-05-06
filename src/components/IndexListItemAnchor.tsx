@@ -6,6 +6,7 @@ type Props = {
     title: string;
     link: string;
     level: HeadingLevel;
+    setAnchor: Dispatch<SetStateAction<string>>
 };
 
 function levelToHeading(level: HeadingLevel, children: ReactNode): ReactNode {
@@ -27,7 +28,7 @@ function levelToHeading(level: HeadingLevel, children: ReactNode): ReactNode {
     }
 }
 
-const IndexListItem: FC<Props> = ({ index, title, link, level }) => {
+const IndexListItem: FC<Props> = ({ index, title, link, level, setAnchor }) => {
     return (
         <>
             {levelToHeading(level, 
@@ -39,7 +40,7 @@ const IndexListItem: FC<Props> = ({ index, title, link, level }) => {
                     {title}
                 </span>
                 <span className="ml-auto">
-                    <a href={`/${link}`}>[{link}]</a>
+                    <a href={`#${link}`} onClick={() => setAnchor(`${link}`)}>[{link}]</a>
                 </span>
             </span>)}
           
