@@ -8,7 +8,7 @@ type Props = {
 
 const content: ReactNode = <>
     <p>{"<library>"} 連続的に扱ったときにテキストとして解釈できるオブジェクト</p>
-    <p>[Note 1: この用語は、char, char8_t, char16_t, char32_tに限らず、<a href="/strings">[strings]</a>, <a href="/location">[localization]</a>, <a href="/input.output">[input.output]</a>, or <a href="/re">[re]</a>で指定される定義を備えた型によって表現できる型すべてを意味します。]</p>
+    <p>[Note 1: この用語は, char, char8_t, char16_t, char32_tに限らず, <a href="/strings">[strings]</a>, <a href="/location">[localization]</a>, <a href="/input.output">[input.output]</a>, or <a href="/re">[re]</a>で指定される定義を備えた型によって表現できる型すべてを意味します. ]</p>
 </>
 
 

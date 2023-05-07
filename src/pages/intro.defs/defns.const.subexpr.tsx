@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-    <p>conditional-expression CE のサブ式として評価しても、CEがコアの定数式であることを妨げない式</p>
+    <p>conditional-expression CE のサブ式として評価しても, CEがコアの定数式であることを妨げない式</p>
 </>
 
 const DefnsConstSubexpr: React.FC<Props> = ({ inner = false }) => {

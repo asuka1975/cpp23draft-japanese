@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-    <p>現在のロケールにおいて、一つの文字として照合される１個以上の文字の連続</p>
+    <p>現在のロケールにおいて, 一つの文字として照合される１個以上の文字の連続</p>
 </>
 
 const DefnsRegexCollatingElement: React.FC<Props> = ({ inner = false }) => {

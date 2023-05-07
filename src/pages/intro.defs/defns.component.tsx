@@ -7,8 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-    <p>{"<library>"} メンバやパラメータ、戻り値型として直接的に関連付けられたライブラリエンティティのグループ</p>
-    <p>[Note 1: 例えば、文字列を操作するbasic_stringテンプレートクラスや非メンバテンプレート関数はstring componentと呼ばれます。]</p>
+    <p>{"<library>"} メンバやパラメータ, 戻り値型として直接的に関連付けられたライブラリエンティティのグループ</p>
+    <p>[Note 1: 例えば, 文字列を操作するbasic_stringテンプレートクラスや非メンバテンプレート関数はstring componentと呼ばれます. ]</p>
 </>
 
 
