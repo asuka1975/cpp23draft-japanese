@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsReferenceable: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.referenceable type">
+        <div id="defns.defns.referenceable">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.45" title="defns.referenceable" link="/intro.defs/referenceable type" linkString="referenceable type" />
+                    <HeadItem level={4} index="3.45" title="referenceable type" link="/intro.defs/defns.referenceable" linkString="defns.referenceable" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.45" title="defns.referenceable" link="/intro.defs/referenceable type" linkString="referenceable type" />
+                    <HeadItem level={4} index="3.45" title="referenceable type" link="/intro.defs/defns.referenceable" linkString="defns.referenceable" />
                     {content}
                 </Field>
         }

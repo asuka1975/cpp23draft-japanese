@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsImplDefined: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.implementation-defined behavior">
+        <div id="defns.defns.impl.defined">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.26" title="defns.impl.defined" link="/intro.defs/implementation-defined behavior" linkString="implementation-defined behavior" />
+                    <HeadItem level={4} index="3.26" title="implementation-defined behavior" link="/intro.defs/defns.impl.defined" linkString="defns.impl.defined" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.26" title="defns.impl.defined" link="/intro.defs/implementation-defined behavior" linkString="implementation-defined behavior" />
+                    <HeadItem level={4} index="3.26" title="implementation-defined behavior" link="/intro.defs/defns.impl.defined" linkString="defns.impl.defined" />
                     {content}
                 </Field>
         }

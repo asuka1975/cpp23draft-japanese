@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsOrderPtr: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.implementation-defined strict total order over pointers">
+        <div id="defns.defns.order.ptr">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.27" title="defns.order.ptr" link="/intro.defs/implementation-defined strict total order over pointers" linkString="implementation-defined strict total order over pointers" />
+                    <HeadItem level={4} index="3.27" title="implementation-defined strict total order over pointers" link="/intro.defs/defns.order.ptr" linkString="defns.order.ptr" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.27" title="defns.order.ptr" link="/intro.defs/implementation-defined strict total order over pointers" linkString="implementation-defined strict total order over pointers" />
+                    <HeadItem level={4} index="3.27" title="implementation-defined strict total order over pointers" link="/intro.defs/defns.order.ptr" linkString="defns.order.ptr" />
                     {content}
                 </Field>
         }

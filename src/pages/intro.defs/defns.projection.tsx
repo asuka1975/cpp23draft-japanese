@@ -1,4 +1,3 @@
-import CppCode from "@/components/CppCode";
 import Field from "@/components/Field"
 import HeadItem from "@/components/HeadItem"
 import { ReactNode } from "react";
@@ -8,17 +7,12 @@ type Props = {
 };
 
 const content: ReactNode = <>
-    <CppCode>
-{
-`std::pair<int, std::string_view> pairs[] = {{2, "foo"}, {1, "bar"}, {0, "baz"}};
-std::ranges::sort(pairs, std::ranges::less{}, [](auto const& p) { return p.first; });`
-}
-    </CppCode>
+
 </>
 
 const DefnsProjection: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.projection">
+        <div id="defns.defns.projection">
         {
             inner ? 
                 <div>

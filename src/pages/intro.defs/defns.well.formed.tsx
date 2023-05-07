@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsWellFormed: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.well-formed program">
+        <div id="defns.defns.well.formed">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.68" title="defns.well.formed" link="/intro.defs/well-formed program" linkString="well-formed program" />
+                    <HeadItem level={4} index="3.68" title="well-formed program" link="/intro.defs/defns.well.formed" linkString="defns.well.formed" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.68" title="defns.well.formed" link="/intro.defs/well-formed program" linkString="well-formed program" />
+                    <HeadItem level={4} index="3.68" title="well-formed program" link="/intro.defs/defns.well.formed" linkString="defns.well.formed" />
                     {content}
                 </Field>
         }

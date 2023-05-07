@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsValid: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.valid but unspecified state">
+        <div id="defns.defns.valid">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.67" title="defns.valid" link="/intro.defs/valid but unspecified state" linkString="valid but unspecified state" />
+                    <HeadItem level={4} index="3.67" title="valid but unspecified state" link="/intro.defs/defns.valid" linkString="defns.valid" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.67" title="defns.valid" link="/intro.defs/valid but unspecified state" linkString="valid but unspecified state" />
+                    <HeadItem level={4} index="3.67" title="valid but unspecified state" link="/intro.defs/defns.valid" linkString="defns.valid" />
                     {content}
                 </Field>
         }

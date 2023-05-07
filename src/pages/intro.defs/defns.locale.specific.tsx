@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsLocaleSpecific: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.locale-specific behavior">
+        <div id="defns.defns.locale.specific">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.30" title="defns.locale.specific" link="/intro.defs/locale-specific behavior" linkString="locale-specific behavior" />
+                    <HeadItem level={4} index="3.30" title="locale-specific behavior" link="/intro.defs/defns.locale.specific" linkString="defns.locale.specific" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.30" title="defns.locale.specific" link="/intro.defs/locale-specific behavior" linkString="locale-specific behavior" />
+                    <HeadItem level={4} index="3.30" title="locale-specific behavior" link="/intro.defs/defns.locale.specific" linkString="defns.locale.specific" />
                     {content}
                 </Field>
         }

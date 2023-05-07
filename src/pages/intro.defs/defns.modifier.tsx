@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsModifier: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.modifier function">
+        <div id="defns.defns.modifier">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.32" title="defns.modifier" link="/intro.defs/modifier function" linkString="modifier function" />
+                    <HeadItem level={4} index="3.32" title="modifier function" link="/intro.defs/defns.modifier" linkString="defns.modifier" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.32" title="defns.modifier" link="/intro.defs/modifier function" linkString="modifier function" />
+                    <HeadItem level={4} index="3.32" title="modifier function" link="/intro.defs/defns.modifier" linkString="defns.modifier" />
                     {content}
                 </Field>
         }

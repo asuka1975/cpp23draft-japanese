@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsMoveConstr: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.move construction">
+        <div id="defns.defns.move.constr">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.34" title="defns.move.constr" link="/intro.defs/move construction" linkString="move construction" />
+                    <HeadItem level={4} index="3.34" title="move construction" link="/intro.defs/defns.move.constr" linkString="defns.move.constr" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.34" title="defns.move.constr" link="/intro.defs/move construction" linkString="move construction" />
+                    <HeadItem level={4} index="3.34" title="move construction" link="/intro.defs/defns.move.constr" linkString="defns.move.constr" />
                     {content}
                 </Field>
         }

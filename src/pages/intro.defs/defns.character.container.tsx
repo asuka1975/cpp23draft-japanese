@@ -17,12 +17,12 @@ const DefnsCharacterContainer: React.FC<Props> = ({ inner = false }) => {
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.10" title="defns.character.container" link="/intro.defs/character container type" linkString="character container type" />
+                    <HeadItem level={4} index="3.10" title="character container type" link="/intro.defs/defns.character.container" linkString="defns.character.container" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.10" title="defns.character.container" link="/intro.defs/character container type" linkString="character container type" />
+                    <HeadItem level={4} index="3.10" title="defns.character.container" link="/intro.defs/defns.character.container" linkString="defns.character.container" />
                     {content}
                 </Field>
         }

@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsRegexSubexpression: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.sub-expression">
+        <div id="defns.defns.regex.subexpression">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.62" title="defns.regex.subexpression" link="/intro.defs/sub-expression" linkString="sub-expression" />
+                    <HeadItem level={4} index="3.62" title="sub-expression" link="/intro.defs/defns.regex.subexpression" linkString="defns.regex.subexpression" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.62" title="defns.regex.subexpression" link="/intro.defs/sub-expression" linkString="sub-expression" />
+                    <HeadItem level={4} index="3.62" title="sub-expression" link="/intro.defs/defns.regex.subexpression" linkString="defns.regex.subexpression" />
                     {content}
                 </Field>
         }

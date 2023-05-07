@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsRegexFormatSpecifier: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.format specifier">
+        <div id="defns.defns.regex.format.specifier">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.23" title="defns.regex.format.specifier" link="/intro.defs/format specifier" linkString="format specifier" />
+                    <HeadItem level={4} index="3.23" title="format specifier" link="/intro.defs/defns.regex.format.specifier" linkString="defns.regex.format.specifier" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.23" title="defns.regex.format.specifier" link="/intro.defs/format specifier" linkString="format specifier" />
+                    <HeadItem level={4} index="3.23" title="format specifier" link="/intro.defs/defns.regex.format.specifier" linkString="defns.regex.format.specifier" />
                     {content}
                 </Field>
         }

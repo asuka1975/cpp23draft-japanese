@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsNtcts: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.NTCTS">
+        <div id="defns.defns.ntcts">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.36" title="defns.ntcts" link="/intro.defs/NTCTS" linkString="NTCTS" />
+                    <HeadItem level={4} index="3.36" title="NTCTS" link="/intro.defs/defns.ntcts" linkString="defns.ntcts" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.36" title="defns.ntcts" link="/intro.defs/NTCTS" linkString="NTCTS" />
+                    <HeadItem level={4} index="3.36" title="NTCTS" link="/intro.defs/defns.ntcts" linkString="defns.ntcts" />
                     {content}
                 </Field>
         }

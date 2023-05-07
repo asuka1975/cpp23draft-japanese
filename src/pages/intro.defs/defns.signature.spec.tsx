@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsSignatureSpec: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.signature">
+        <div id="defns.defns.signature.spec">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.55" title="defns.signature.spec" link="/intro.defs/signature" linkString="signature" />
+                    <HeadItem level={4} index="3.55" title="signature" link="/intro.defs/defns.signature.spec" linkString="defns.signature.spec" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.55" title="defns.signature.spec" link="/intro.defs/signature" linkString="signature" />
+                    <HeadItem level={4} index="3.55" title="signature" link="/intro.defs/defns.signature.spec" linkString="defns.signature.spec" />
                     {content}
                 </Field>
         }

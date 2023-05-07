@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsDynamicType: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.dynamic type">
+        <div id="defns.defns.dynamic.type">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.19" title="defns.dynamic.type" link="/intro.defs/dynamic type" linkString="dynamic type" />
+                    <HeadItem level={4} index="3.19" title="dynamic type" link="/intro.defs/defns.dynamic.type" linkString="defns.dynamic.type" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.19" title="defns.dynamic.type" link="/intro.defs/dynamic type" linkString="dynamic type" />
+                    <HeadItem level={4} index="3.19" title="dynamic type" link="/intro.defs/defns.dynamic.type" linkString="defns.dynamic.type" />
                     {content}
                 </Field>
         }

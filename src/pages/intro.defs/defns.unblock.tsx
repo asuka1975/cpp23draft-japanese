@@ -12,16 +12,16 @@ const content: ReactNode = <>
 
 const DefnsUnblock: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.unblock">
+        <div id="defns.defns.unblock">
         {
             inner ? 
                 <div>
-                    <HeadItem level={4} index="3.64" title="defns.unblock" link="/intro.defs/unblock" linkString="unblock" />
+                    <HeadItem level={4} index="3.64" title="unblock" link="/intro.defs/defns.unblock" linkString="defns.unblock" />
                     {content}
                 </div> :
                 <Field>
                     <HeadItem level={1} index="3" title="Terms and definitions" link="/" linkString="intro.defs" />
-                    <HeadItem level={4} index="3.64" title="defns.unblock" link="/intro.defs/unblock" linkString="unblock" />
+                    <HeadItem level={4} index="3.64" title="unblock" link="/intro.defs/defns.unblock" linkString="defns.unblock" />
                     {content}
                 </Field>
         }
