@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsSignatureTempl: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.signature.templ">
+        <div id="defns.signature.templ">
         {
             inner ? 
                 <div>

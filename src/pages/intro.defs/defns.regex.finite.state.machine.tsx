@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexFiniteStateMachine: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.finite.state.machine">
+        <div id="defns.regex.finite.state.machine">
         {
             inner ? 
                 <div>

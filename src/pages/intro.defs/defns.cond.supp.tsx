@@ -13,7 +13,7 @@ const content: ReactNode = <>
 
 const DefnsCondSupp: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.cond.supp">
+        <div id="defns.cond.supp">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsObserver: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.observer">
+        <div id="defns.observer">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexFormatSpecifier: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.format.specifier">
+        <div id="defns.regex.format.specifier">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsUnblock: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.unblock">
+        <div id="defns.unblock">
         {
             inner ? 
                 <div>

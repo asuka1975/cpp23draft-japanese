@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsOrderPtr: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.order.ptr">
+        <div id="defns.order.ptr">
         {
             inner ? 
                 <div>

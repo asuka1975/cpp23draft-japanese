@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsDirectNonListInit: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.direct.non.list.init">
+        <div id="defns.direct.non.list.init">
         {
             inner ? 
                 <div>

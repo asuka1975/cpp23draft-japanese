@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRepositionalStream: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.repositional.stream">
+        <div id="defns.repositional.stream">
         {
             inner ? 
                 <div>

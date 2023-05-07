@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRequiredBehavior: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.required.behavior">
+        <div id="defns.required.behavior">
         {
             inner ? 
                 <div>

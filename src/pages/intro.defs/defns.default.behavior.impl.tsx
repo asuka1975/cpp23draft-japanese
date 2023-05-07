@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsDefaultBehaviorImpl: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.default.behavior.impl">
+        <div id="defns.default.behavior.impl">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsExpressionEquivalent: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.expression.equivalent">
+        <div id="defns.expression.equivalent">
         {
             inner ? 
                 <div>

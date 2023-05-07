@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsConstSubexpr: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.const.subexpr">
+        <div id="defns.const.subexpr">
         {
             inner ? 
                 <div>

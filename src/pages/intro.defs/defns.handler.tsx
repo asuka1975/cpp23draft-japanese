@@ -7,12 +7,13 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} C++プログラムによって定義が提供されるかもしれない、予約されてない関数</p>
+    <p>[Note 1: あるC++プログラムはその実行における様々なポイントで、handler functionを備えたライブラリ関数のどれかを呼び出すとき関数ポインタを供給することでhandler functionを指定するかもしれません。(<a href="/support">[support]</a>)]</p>
 </>
 
 const DefnsHandler: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.handler">
+        <div id="defns.handler">
         {
             inner ? 
                 <div>

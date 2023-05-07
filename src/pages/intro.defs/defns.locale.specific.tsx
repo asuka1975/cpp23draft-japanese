@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsLocaleSpecific: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.locale.specific">
+        <div id="defns.locale.specific">
         {
             inner ? 
                 <div>

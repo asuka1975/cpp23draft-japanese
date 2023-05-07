@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsIostreamTemplates: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.iostream.templates">
+        <div id="defns.iostream.templates">
         {
             inner ? 
                 <div>

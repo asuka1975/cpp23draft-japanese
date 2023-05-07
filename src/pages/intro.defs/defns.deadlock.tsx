@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsDeadlock: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.deadlock">
+        <div id="defns.deadlock">
         {
             inner ? 
                 <div>

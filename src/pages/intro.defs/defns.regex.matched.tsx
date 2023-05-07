@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexMatched: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.matched">
+        <div id="defns.regex.matched">
         {
             inner ? 
                 <div>

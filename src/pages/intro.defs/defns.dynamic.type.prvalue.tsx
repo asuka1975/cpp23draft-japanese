@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsDynamicTypePrvalue: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.dynamic.type.prvalue">
+        <div id="defns.dynamic.type.prvalue">
         {
             inner ? 
                 <div>

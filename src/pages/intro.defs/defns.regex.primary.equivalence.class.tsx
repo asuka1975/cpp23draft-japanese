@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexPrimaryEquivalenceClass: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.primary.equivalence.class">
+        <div id="defns.regex.primary.equivalence.class">
         {
             inner ? 
                 <div>

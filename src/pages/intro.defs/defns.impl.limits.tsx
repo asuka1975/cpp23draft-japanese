@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsImplLimits: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.impl.limits">
+        <div id="defns.impl.limits">
         {
             inner ? 
                 <div>

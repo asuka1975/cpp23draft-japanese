@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsProgDefType: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.prog.def.type">
+        <div id="defns.prog.def.type">
         {
             inner ? 
                 <div>

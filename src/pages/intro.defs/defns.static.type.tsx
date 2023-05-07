@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsStaticType: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.static.type">
+        <div id="defns.static.type">
         {
             inner ? 
                 <div>

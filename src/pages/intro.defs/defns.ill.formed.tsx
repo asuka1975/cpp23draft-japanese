@@ -7,12 +7,12 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p><a href="/intro.defs#defns.well.formed">well-formed</a>ではないプログラム</p>
 </>
 
 const DefnsIllFormed: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.ill.formed">
+        <div id="defns.ill.formed">
         {
             inner ? 
                 <div>

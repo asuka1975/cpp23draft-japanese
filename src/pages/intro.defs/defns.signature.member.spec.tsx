@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsSignatureMemberSpec: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.signature.member.spec">
+        <div id="defns.signature.member.spec">
         {
             inner ? 
                 <div>

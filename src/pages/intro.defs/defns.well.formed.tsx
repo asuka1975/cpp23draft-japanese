@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsWellFormed: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.well.formed">
+        <div id="defns.well.formed">
         {
             inner ? 
                 <div>

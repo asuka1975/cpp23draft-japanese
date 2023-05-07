@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsNonconstLibcall: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.nonconst.libcall">
+        <div id="defns.nonconst.libcall">
         {
             inner ? 
                 <div>

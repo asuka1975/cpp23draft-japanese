@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsModifier: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.modifier">
+        <div id="defns.modifier">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsReferenceable: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.referenceable">
+        <div id="defns.referenceable">
         {
             inner ? 
                 <div>

@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexCollatingElement: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.collating.element">
+        <div id="defns.regex.collating.element">
         {
             inner ? 
                 <div>

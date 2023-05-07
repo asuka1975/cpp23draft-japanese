@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsProgDefSpec: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.prog.def.spec">
+        <div id="defns.prog.def.spec">
         {
             inner ? 
                 <div>

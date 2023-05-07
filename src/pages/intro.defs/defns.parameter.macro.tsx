@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsParameterMacro: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.parameter.macro">
+        <div id="defns.parameter.macro">
         {
             inner ? 
                 <div>

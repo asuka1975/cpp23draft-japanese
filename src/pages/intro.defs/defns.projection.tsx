@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsProjection: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.projection">
+        <div id="defns.projection">
         {
             inner ? 
                 <div>

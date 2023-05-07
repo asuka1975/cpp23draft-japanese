@@ -12,7 +12,7 @@ const content: ReactNode = <>
 
 const DefnsRegexSubexpression: React.FC<Props> = ({ inner = false }) => {
     return (
-        <div id="defns.defns.regex.subexpression">
+        <div id="defns.regex.subexpression">
         {
             inner ? 
                 <div>
