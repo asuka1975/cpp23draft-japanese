@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library implementation>"} 要求される振る舞いの範囲内で、実装によって提供される特定の振る舞い</p>
 </>
 
 const DefnsDefaultBehaviorImpl: React.FC<Props> = ({ inner = false }) => {

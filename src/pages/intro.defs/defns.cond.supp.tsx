@@ -7,7 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>実装がサポートする必要のないプログラム構造</p>
+    <p>[Note 1: それぞれの実装がサポートしていないすべてのconditionally-supportedな構造について文書にまとめます。]</p>
 </>
 
 const DefnsCondSupp: React.FC<Props> = ({ inner = false }) => {

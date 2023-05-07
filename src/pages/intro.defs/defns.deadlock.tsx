@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} １つ以上のスレッドが、それぞれ１つ以上の他スレッドが条件を満たすのを待つためにブロックすることで実行を継続できない状況</p>
 </>
 
 const DefnsDeadlock: React.FC<Props> = ({ inner = false }) => {
