@@ -7,6 +7,7 @@ import DefnsArgument from "./defns.argument";
 import DefnsArgumentMacro from "./defns.argument.macro";
 import DefnsArgumentThrow from "./defns.argument.throw";
 import DefnsArgumentTempl from "./defns.argument.templ";
+import DefnsBlock from "./defns.block";
 
 
 export default function IntroDefs() {
@@ -30,6 +31,7 @@ export default function IntroDefs() {
             <DefnsArgumentMacro inner />
             <DefnsArgumentThrow inner />
             <DefnsArgumentTempl inner />
+            <DefnsBlock inner />
 
             <DefnsProjection inner />
         </Field>
