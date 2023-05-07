@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>実装の出力メッセージのうち実装定義のサブセットに属するメッセージ</p>
 </>
 
 const DefnsDiagnostic: React.FC<Props> = ({ inner = false }) => {

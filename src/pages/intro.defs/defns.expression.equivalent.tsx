@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 全て同等効果を持ち, すべて例外を投げ得るかまたはすべて例外を投げないかのどちらかであり, そして全てが定数サブ式であるかまたは全てが定数サブ式ではない式群</p>
 </>
 
 const DefnsExpressionEquivalent: React.FC<Props> = ({ inner = false }) => {

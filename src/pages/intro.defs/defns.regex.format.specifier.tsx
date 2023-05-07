@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<regular expression>"} 正規表現の一部として入れ替えられる１個以上の文字の並び</p>
 </>
 
 const DefnsRegexFormatSpecifier: React.FC<Props> = ({ inner = false }) => {

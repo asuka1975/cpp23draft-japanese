@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<正規表現>"} 正規表現の表現のために使われ、正規表現に効率的にマッチすることを可能にする不特定のデータ構造</p>
 </>
 
 const DefnsRegexFiniteStateMachine: React.FC<Props> = ({ inner = false }) => {

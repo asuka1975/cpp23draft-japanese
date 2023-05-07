@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>リスト初期化ではない直接初期化</p>
 </>
 
 const DefnsDirectNonListInit: React.FC<Props> = ({ inner = false }) => {

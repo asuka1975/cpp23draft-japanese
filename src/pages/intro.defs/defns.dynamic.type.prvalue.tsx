@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<prvalue>"} prvalue式の静的型</p>
 </>
 
 const DefnsDynamicTypePrvalue: React.FC<Props> = ({ inner = false }) => {
