@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>実装に依存しており、それぞれの実装が文書に記述する、well-formedなプログラム構造と正しいデータのための動作</p>
 </>
 
 const DefnsImplDefined: React.FC<Props> = ({ inner = false }) => {

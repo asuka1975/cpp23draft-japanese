@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 順序がビルトイン演算子の{"<, >, <=, >=, <=>"}による半順序と合致するような実装定義の全ポインタ値に渡る厳密な全順序</p>
 </>
 
 const DefnsOrderPtr: React.FC<Props> = ({ inner = false }) => {
