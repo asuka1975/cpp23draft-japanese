@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>実装によってプログラムに課された制限</p>
 </>
 
 const DefnsImplLimits: React.FC<Props> = ({ inner = false }) => {
