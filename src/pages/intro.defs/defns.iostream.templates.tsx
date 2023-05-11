@@ -7,7 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} {"<iosfwd>"}ヘッダで宣言され、ふたつのテンプレート引数をもつテンプレート</p>
+    <p>[Note 1: ふたつの引数はcharTとtraitsと名付けられています。引数charTはcharacter container classであり、traitsはiostreamクラステンプレートを実装するために必要なcharTによって表現される文字型の追加的な特徴や機能を定義する型です。]</p>
 </>
 
 const DefnsIostreamTemplates: React.FC<Props> = ({ inner = false }) => {
