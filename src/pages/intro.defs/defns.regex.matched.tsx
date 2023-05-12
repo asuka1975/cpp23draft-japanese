@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"正規表現"} ゼロ個以上の文字のシーケンスがパターンで定義された文字のシーケンスと一致するときの条件</p>
 </>
 
 const DefnsRegexMatched: React.FC<Props> = ({ inner = false }) => {
