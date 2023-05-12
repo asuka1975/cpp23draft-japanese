@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>それぞれの実装で文書化される国や文化、言語ごとの慣習に依存した動作</p>
 </>
 
 const DefnsLocaleSpecific: React.FC<Props> = ({ inner = false }) => {
