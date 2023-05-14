@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 自オブジェクトの状態を変更するコンストラクタや代入演算子、デストラクタでないクラスメンバ関数</p>
 </>
 
 const DefnsModifier: React.FC<Props> = ({ inner = false }) => {
