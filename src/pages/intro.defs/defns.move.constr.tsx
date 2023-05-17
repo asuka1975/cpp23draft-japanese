@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} あるオブジェクトの、同じ型の右辺値による直接的な初期化</p>
 </>
 
 const DefnsMoveConstr: React.FC<Props> = ({ inner = false }) => {
