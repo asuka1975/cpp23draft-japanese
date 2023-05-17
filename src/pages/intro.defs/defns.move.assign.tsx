@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 書き換え可能な左辺値への同じ型であるオブジェクトの右辺値の代入</p>
 </>
 
 const DefnsMoveAssign: React.FC<Props> = ({ inner = false }) => {
