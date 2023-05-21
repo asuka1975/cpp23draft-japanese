@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>式Eの評価の一部として、式Eが中核の定数式になるのを妨げるライブラリ関数の呼び出し</p>
 </>
 
 const DefnsNonconstLibcall: React.FC<Props> = ({ inner = false }) => {
