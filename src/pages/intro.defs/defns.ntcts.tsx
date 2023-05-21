@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 終端のヌル文字型の値charT()の前に存在する文字型の値の並び</p>
 </>
 
 const DefnsNtcts: React.FC<Props> = ({ inner = false }) => {
