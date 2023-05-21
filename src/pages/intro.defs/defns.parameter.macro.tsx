@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<関数形式マクロ>"} マクロ名のすぐ後ろで丸括弧で囲まれカンマで区切られたリストの中の識別子</p>
 </>
 
 const DefnsParameterMacro: React.FC<Props> = ({ inner = false }) => {
