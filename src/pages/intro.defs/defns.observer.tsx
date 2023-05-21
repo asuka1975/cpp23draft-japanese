@@ -7,7 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} 状態を変えることなくあるクラスのオブジェクトの状態にアクセスする自クラスのメンバ関数</p>
+    <p>[Note 1: Observer functionはconstメンバ関数として指定されます]</p>
 </>
 
 const DefnsObserver: React.FC<Props> = ({ inner = false }) => {
