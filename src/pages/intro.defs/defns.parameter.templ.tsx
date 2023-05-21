@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<テンプレート>"} <a href="/temp.pre#template-parameter-list">template-parameter-list</a>のメンバ</p>
 </>
 
 const DefnsParameterTempl: React.FC<Props> = ({ inner = false }) => {
