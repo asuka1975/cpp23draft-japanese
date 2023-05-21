@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<関数またはcatch文>"} 関数の宣言・定義の一部として、または関数・ハンドラーへの入口で値を取得する例外ハンドラーのcatch文の中で宣言されたオブジェクトまたは参照</p>
 </>
 
 const DefnsParameter: React.FC<Props> = ({ inner = false }) => {
