@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} C++標準ライブラリの一部でなく、実装によっては定義されていない明示的なテンプレート特殊化、または部分特殊化</p>
 </>
 
 const DefnsProgDefSpec: React.FC<Props> = ({ inner = false }) => {
