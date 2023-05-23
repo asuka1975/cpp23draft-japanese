@@ -7,7 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>{"<library>"} C++標準ライブラリの一部でなく、実装により定義されていないクロージャではないクラス型・enum型、または実装が提供していないラムダ式のクロージャ型、プログラム定義された特殊化のインスタンス化</p>
+    <p>[Note 1: 実装定義の型は拡張([<a href="/intro.compliance">inctro.compliance</a>])やライブラリ内部でのみ使われる型]</p>
 </>
 
 const DefnsProgDefType: React.FC<Props> = ({ inner = false }) => {
