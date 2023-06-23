@@ -7,7 +7,8 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>オブジェクト型かcv修飾・参照修飾を持たない関数型、あるいは参照型のどれかの型</p>
+    <p>[Note 1: この用語は参照型を含めて生成可能なそれのものに対する参照型を生成できる型を表している]</p>
 </>
 
 const DefnsReferenceable: React.FC<Props> = ({ inner = false }) => {
