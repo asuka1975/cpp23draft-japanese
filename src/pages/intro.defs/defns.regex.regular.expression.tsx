@@ -7,7 +7,7 @@ type Props = {
 };
 
 const content: ReactNode = <>
-
+    <p>文字列の集合から特定の文字列を選択するパターン</p>
 </>
 
 const DefnsRegexRegularExpression: React.FC<Props> = ({ inner = false }) => {
